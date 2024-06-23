@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC56B0C22C28743D0063EB0A /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = AC56B0C12C28743D0063EB0A /* Starscream */; };
+		AC733F1B2C2843E00000908E /* model_1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC733F192C2843E00000908E /* model_1.mlmodel */; };
+		AC733F1C2C2843E00000908E /* model_2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC733F1A2C2843E00000908E /* model_2.mlmodel */; };
+		AC733F1E2C28452B0000908E /* notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC733F1D2C28452B0000908E /* notifier.swift */; };
+		AC733F202C284C3C0000908E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC733F1F2C284C3C0000908E /* AppDelegate.swift */; };
 		DF95FE462C282A0C00EAD56B /* Stress_PenguinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */; };
 		DF95FE482C282A0C00EAD56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE472C282A0C00EAD56B /* ContentView.swift */; };
 		DF95FE4A2C282A0E00EAD56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF95FE492C282A0E00EAD56B /* Assets.xcassets */; };
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC733F192C2843E00000908E /* model_1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_1.mlmodel; sourceTree = "<group>"; };
+		AC733F1A2C2843E00000908E /* model_2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_2.mlmodel; sourceTree = "<group>"; };
+		AC733F1D2C28452B0000908E /* notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifier.swift; sourceTree = "<group>"; };
+		AC733F1F2C284C3C0000908E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF95FE422C282A0C00EAD56B /* Stress Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_PenguinApp.swift; sourceTree = "<group>"; };
 		DF95FE472C282A0C00EAD56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC56B0C22C28743D0063EB0A /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,8 @@
 		DF95FE442C282A0C00EAD56B /* Stress Penguin */ = {
 			isa = PBXGroup;
 			children = (
+				AC733F192C2843E00000908E /* model_1.mlmodel */,
+				AC733F1A2C2843E00000908E /* model_2.mlmodel */,
 				DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */,
 				DF95FE712C28329B00EAD56B /* LoadingView.swift */,
 				DF95FE472C282A0C00EAD56B /* ContentView.swift */,
@@ -107,6 +119,8 @@
 				DF95FE6F2C282C0200EAD56B /* ChatView.swift */,
 				DF95FE492C282A0E00EAD56B /* Assets.xcassets */,
 				DF95FE4B2C282A0E00EAD56B /* Preview Content */,
+				AC733F1D2C28452B0000908E /* notifier.swift */,
+				AC733F1F2C284C3C0000908E /* AppDelegate.swift */,
 			);
 			path = "Stress Penguin";
 			sourceTree = "<group>";
@@ -152,6 +166,9 @@
 			dependencies = (
 			);
 			name = "Stress Penguin";
+			packageProductDependencies = (
+				AC56B0C12C28743D0063EB0A /* Starscream */,
+			);
 			productName = "Stress Penguin";
 			productReference = DF95FE422C282A0C00EAD56B /* Stress Penguin.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +241,9 @@
 				Base,
 			);
 			mainGroup = DF95FE392C282A0C00EAD56B;
+			packageReferences = (
+				AC56B0C02C28743D0063EB0A /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = DF95FE432C282A0C00EAD56B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,6 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC733F1C2C2843E00000908E /* model_2.mlmodel in Sources */,
+				AC733F1E2C28452B0000908E /* notifier.swift in Sources */,
+				AC733F1B2C2843E00000908E /* model_1.mlmodel in Sources */,
+				AC733F202C284C3C0000908E /* AppDelegate.swift in Sources */,
 				DF95FE742C2833BF00EAD56B /* AlertView.swift in Sources */,
 				DF95FE482C282A0C00EAD56B /* ContentView.swift in Sources */,
 				DF95FE722C28329B00EAD56B /* LoadingView.swift in Sources */,
@@ -436,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +489,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -594,6 +620,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC56B0C02C28743D0063EB0A /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC56B0C12C28743D0063EB0A /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC56B0C02C28743D0063EB0A /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF95FE3A2C282A0C00EAD56B /* Project object */;
 }

@@ -16,6 +16,7 @@ extension Color {
 
 @main
 struct Stress_PenguinApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             NavigationStack{
