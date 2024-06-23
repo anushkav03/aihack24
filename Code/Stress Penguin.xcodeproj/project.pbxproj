@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF95FE462C282A0C00EAD56B /* Stress_PenguinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */; };
+		DF95FE482C282A0C00EAD56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE472C282A0C00EAD56B /* ContentView.swift */; };
+		DF95FE4A2C282A0E00EAD56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF95FE492C282A0E00EAD56B /* Assets.xcassets */; };
+		DF95FE4D2C282A0E00EAD56B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF95FE4C2C282A0E00EAD56B /* Preview Assets.xcassets */; };
+		DF95FE572C282A0F00EAD56B /* Stress_PenguinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE562C282A0F00EAD56B /* Stress_PenguinTests.swift */; };
+		DF95FE612C282A0F00EAD56B /* Stress_PenguinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE602C282A0F00EAD56B /* Stress_PenguinUITests.swift */; };
+		DF95FE632C282A0F00EAD56B /* Stress_PenguinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE622C282A0F00EAD56B /* Stress_PenguinUITestsLaunchTests.swift */; };
+		DF95FE702C282C0200EAD56B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE6F2C282C0200EAD56B /* ChatView.swift */; };
+		DF95FE722C28329B00EAD56B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE712C28329B00EAD56B /* LoadingView.swift */; };
+		DF95FE742C2833BF00EAD56B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF95FE732C2833BF00EAD56B /* AlertView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF95FE532C282A0F00EAD56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF95FE3A2C282A0C00EAD56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF95FE412C282A0C00EAD56B;
+			remoteInfo = "Stress Penguin";
+		};
+		DF95FE5D2C282A0F00EAD56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF95FE3A2C282A0C00EAD56B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF95FE412C282A0C00EAD56B;
+			remoteInfo = "Stress Penguin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF95FE422C282A0C00EAD56B /* Stress Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stress Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_PenguinApp.swift; sourceTree = "<group>"; };
+		DF95FE472C282A0C00EAD56B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF95FE492C282A0E00EAD56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF95FE4C2C282A0E00EAD56B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF95FE522C282A0F00EAD56B /* Stress PenguinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress PenguinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF95FE562C282A0F00EAD56B /* Stress_PenguinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_PenguinTests.swift; sourceTree = "<group>"; };
+		DF95FE5C2C282A0F00EAD56B /* Stress PenguinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stress PenguinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF95FE602C282A0F00EAD56B /* Stress_PenguinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_PenguinUITests.swift; sourceTree = "<group>"; };
+		DF95FE622C282A0F00EAD56B /* Stress_PenguinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stress_PenguinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF95FE6F2C282C0200EAD56B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DF95FE712C28329B00EAD56B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DF95FE732C2833BF00EAD56B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF95FE3F2C282A0C00EAD56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE4F2C282A0F00EAD56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE592C282A0F00EAD56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF95FE392C282A0C00EAD56B = {
+			isa = PBXGroup;
+			children = (
+				DF95FE442C282A0C00EAD56B /* Stress Penguin */,
+				DF95FE552C282A0F00EAD56B /* Stress PenguinTests */,
+				DF95FE5F2C282A0F00EAD56B /* Stress PenguinUITests */,
+				DF95FE432C282A0C00EAD56B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF95FE432C282A0C00EAD56B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF95FE422C282A0C00EAD56B /* Stress Penguin.app */,
+				DF95FE522C282A0F00EAD56B /* Stress PenguinTests.xctest */,
+				DF95FE5C2C282A0F00EAD56B /* Stress PenguinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF95FE442C282A0C00EAD56B /* Stress Penguin */ = {
+			isa = PBXGroup;
+			children = (
+				DF95FE452C282A0C00EAD56B /* Stress_PenguinApp.swift */,
+				DF95FE712C28329B00EAD56B /* LoadingView.swift */,
+				DF95FE472C282A0C00EAD56B /* ContentView.swift */,
+				DF95FE732C2833BF00EAD56B /* AlertView.swift */,
+				DF95FE6F2C282C0200EAD56B /* ChatView.swift */,
+				DF95FE492C282A0E00EAD56B /* Assets.xcassets */,
+				DF95FE4B2C282A0E00EAD56B /* Preview Content */,
+			);
+			path = "Stress Penguin";
+			sourceTree = "<group>";
+		};
+		DF95FE4B2C282A0E00EAD56B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF95FE4C2C282A0E00EAD56B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF95FE552C282A0F00EAD56B /* Stress PenguinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF95FE562C282A0F00EAD56B /* Stress_PenguinTests.swift */,
+			);
+			path = "Stress PenguinTests";
+			sourceTree = "<group>";
+		};
+		DF95FE5F2C282A0F00EAD56B /* Stress PenguinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF95FE602C282A0F00EAD56B /* Stress_PenguinUITests.swift */,
+				DF95FE622C282A0F00EAD56B /* Stress_PenguinUITestsLaunchTests.swift */,
+			);
+			path = "Stress PenguinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF95FE412C282A0C00EAD56B /* Stress Penguin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95FE662C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress Penguin" */;
+			buildPhases = (
+				DF95FE3E2C282A0C00EAD56B /* Sources */,
+				DF95FE3F2C282A0C00EAD56B /* Frameworks */,
+				DF95FE402C282A0C00EAD56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stress Penguin";
+			productName = "Stress Penguin";
+			productReference = DF95FE422C282A0C00EAD56B /* Stress Penguin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF95FE512C282A0F00EAD56B /* Stress PenguinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95FE692C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress PenguinTests" */;
+			buildPhases = (
+				DF95FE4E2C282A0F00EAD56B /* Sources */,
+				DF95FE4F2C282A0F00EAD56B /* Frameworks */,
+				DF95FE502C282A0F00EAD56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF95FE542C282A0F00EAD56B /* PBXTargetDependency */,
+			);
+			name = "Stress PenguinTests";
+			productName = "Stress PenguinTests";
+			productReference = DF95FE522C282A0F00EAD56B /* Stress PenguinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF95FE5B2C282A0F00EAD56B /* Stress PenguinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF95FE6C2C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress PenguinUITests" */;
+			buildPhases = (
+				DF95FE582C282A0F00EAD56B /* Sources */,
+				DF95FE592C282A0F00EAD56B /* Frameworks */,
+				DF95FE5A2C282A0F00EAD56B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF95FE5E2C282A0F00EAD56B /* PBXTargetDependency */,
+			);
+			name = "Stress PenguinUITests";
+			productName = "Stress PenguinUITests";
+			productReference = DF95FE5C2C282A0F00EAD56B /* Stress PenguinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF95FE3A2C282A0C00EAD56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF95FE412C282A0C00EAD56B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DF95FE512C282A0F00EAD56B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF95FE412C282A0C00EAD56B;
+					};
+					DF95FE5B2C282A0F00EAD56B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DF95FE412C282A0C00EAD56B;
+					};
+				};
+			};
+			buildConfigurationList = DF95FE3D2C282A0C00EAD56B /* Build configuration list for PBXProject "Stress Penguin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF95FE392C282A0C00EAD56B;
+			productRefGroup = DF95FE432C282A0C00EAD56B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF95FE412C282A0C00EAD56B /* Stress Penguin */,
+				DF95FE512C282A0F00EAD56B /* Stress PenguinTests */,
+				DF95FE5B2C282A0F00EAD56B /* Stress PenguinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF95FE402C282A0C00EAD56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95FE4D2C282A0E00EAD56B /* Preview Assets.xcassets in Resources */,
+				DF95FE4A2C282A0E00EAD56B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE502C282A0F00EAD56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE5A2C282A0F00EAD56B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF95FE3E2C282A0C00EAD56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95FE742C2833BF00EAD56B /* AlertView.swift in Sources */,
+				DF95FE482C282A0C00EAD56B /* ContentView.swift in Sources */,
+				DF95FE722C28329B00EAD56B /* LoadingView.swift in Sources */,
+				DF95FE702C282C0200EAD56B /* ChatView.swift in Sources */,
+				DF95FE462C282A0C00EAD56B /* Stress_PenguinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE4E2C282A0F00EAD56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95FE572C282A0F00EAD56B /* Stress_PenguinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95FE582C282A0F00EAD56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF95FE612C282A0F00EAD56B /* Stress_PenguinUITests.swift in Sources */,
+				DF95FE632C282A0F00EAD56B /* Stress_PenguinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF95FE542C282A0F00EAD56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF95FE412C282A0C00EAD56B /* Stress Penguin */;
+			targetProxy = DF95FE532C282A0F00EAD56B /* PBXContainerItemProxy */;
+		};
+		DF95FE5E2C282A0F00EAD56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF95FE412C282A0C00EAD56B /* Stress Penguin */;
+			targetProxy = DF95FE5D2C282A0F00EAD56B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF95FE642C282A0F00EAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF95FE652C282A0F00EAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF95FE672C282A0F00EAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF95FE682C282A0F00EAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-Penguin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF95FE6A2C282A0F00EAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-PenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Penguin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stress Penguin";
+			};
+			name = Debug;
+		};
+		DF95FE6B2C282A0F00EAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-PenguinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stress Penguin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stress Penguin";
+			};
+			name = Release;
+		};
+		DF95FE6D2C282A0F00EAD56B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-PenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Penguin";
+			};
+			name = Debug;
+		};
+		DF95FE6E2C282A0F00EAD56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teampenguin.Stress-PenguinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stress Penguin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF95FE3D2C282A0C00EAD56B /* Build configuration list for PBXProject "Stress Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95FE642C282A0F00EAD56B /* Debug */,
+				DF95FE652C282A0F00EAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95FE662C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress Penguin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95FE672C282A0F00EAD56B /* Debug */,
+				DF95FE682C282A0F00EAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95FE692C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress PenguinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95FE6A2C282A0F00EAD56B /* Debug */,
+				DF95FE6B2C282A0F00EAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF95FE6C2C282A0F00EAD56B /* Build configuration list for PBXNativeTarget "Stress PenguinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF95FE6D2C282A0F00EAD56B /* Debug */,
+				DF95FE6E2C282A0F00EAD56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF95FE3A2C282A0C00EAD56B /* Project object */;
+}
