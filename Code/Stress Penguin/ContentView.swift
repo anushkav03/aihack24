@@ -16,14 +16,12 @@ struct ContentView: View {
                 
                 VStack {
                     
-                    NavigationLink(destination: AlertViewWrapper()) {
-                        Text("Show Alert")
-                            .padding()
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                    }
-                    .padding()
+                    // Replace this NavigationLink with an Image
+                    Image("penguin")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+                        .padding()
                     
                     NavigationLink(destination: ChatView()) {
                         Text("Talk to Hume")
@@ -47,5 +45,3 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
-
-

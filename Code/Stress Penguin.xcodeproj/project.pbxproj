@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC56B0C22C28743D0063EB0A /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = AC56B0C12C28743D0063EB0A /* Starscream */; };
+		AC56B0C42C28A5DE0063EB0A /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56B0C32C28A5DE0063EB0A /* WebSocketManager.swift */; };
 		AC733F1B2C2843E00000908E /* model_1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC733F192C2843E00000908E /* model_1.mlmodel */; };
 		AC733F1C2C2843E00000908E /* model_2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC733F1A2C2843E00000908E /* model_2.mlmodel */; };
 		AC733F1E2C28452B0000908E /* notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC733F1D2C28452B0000908E /* notifier.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC56B0C32C28A5DE0063EB0A /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		AC733F192C2843E00000908E /* model_1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_1.mlmodel; sourceTree = "<group>"; };
 		AC733F1A2C2843E00000908E /* model_2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_2.mlmodel; sourceTree = "<group>"; };
 		AC733F1D2C28452B0000908E /* notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifier.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				DF95FE4B2C282A0E00EAD56B /* Preview Content */,
 				AC733F1D2C28452B0000908E /* notifier.swift */,
 				AC733F1F2C284C3C0000908E /* AppDelegate.swift */,
+				AC56B0C32C28A5DE0063EB0A /* WebSocketManager.swift */,
 			);
 			path = "Stress Penguin";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC733F1C2C2843E00000908E /* model_2.mlmodel in Sources */,
+				AC56B0C42C28A5DE0063EB0A /* WebSocketManager.swift in Sources */,
 				AC733F1E2C28452B0000908E /* notifier.swift in Sources */,
 				AC733F1B2C2843E00000908E /* model_1.mlmodel in Sources */,
 				AC733F202C284C3C0000908E /* AppDelegate.swift in Sources */,
@@ -460,7 +464,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your permission to use the microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app requires access to speech recognition to enable voice commands and dictation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,7 +494,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stress Penguin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your permission to use the microphone";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app requires access to speech recognition to enable voice commands and dictation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
