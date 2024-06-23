@@ -1,1 +1,1 @@
-# aihack24
+Team Penguin Project for UC Bereley AI Hackathon.
